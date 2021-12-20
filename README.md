@@ -47,6 +47,7 @@ Environment="DAEMON_HOME=$HOME/.umee"
 Environment="DAEMON_NAME=umeed"
 Environment="DAEMON_ALLOW_DOWNLOAD_BINARIES=false"
 Environment="DAEMON_RESTART_AFTER_UPGRADE=true"
+Environment="UNSAFE_SKIP_BACKUP=true"
 [Install]
 WantedBy=multi-user.target
 EOF
